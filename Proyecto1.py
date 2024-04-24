@@ -88,5 +88,5 @@ def main():  # Define la función principal del programa
     fechas_mas_proximas, fechas_mas_lejanas = calcular_fechas(actividades, nodo_inicial, nodo_final)  # Calcula las fechas de inicio y fin de las actividades
     generar_reporte(actividades, nodo_inicial, nodo_final, fechas_mas_proximas, fechas_mas_lejanas)  # Genera un reporte
 
-if __name__ == '_main_':  # Verifica si el script se está ejecutando directamente
+if __name__ == '_main_':
     main()  # Llama a la función principal
